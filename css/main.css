@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-.banner {
+body {
   color: #fff;
   background-color: #79756f;
   text-align: center;
@@ -17,21 +17,25 @@ html {
   border-style: solid;
   border-width: medium;
   border-radius: .3em;
-  padding: .6em
-}
-
-h1 {
-  font-family: "Bevan", cursive;
+  padding: .6em;
   margin: .3em;
 }
 
+h1 {
+  font-family: "Bevan", cursive, sans-serif;
+}
+
 ul li {
-  text-decoration: none;
   background-color: #713837;
   display: inline-block;
+  padding: .5em;
+  border-radius: .3em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
   font-family: sans-serif;
-  padding-left: .5em;
-  padding-right: .75em;
 }
 
 ul li:hover {
