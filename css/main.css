@@ -13,16 +13,18 @@ body {
   color: #fff;
   background-color: #79756f;
   text-align: center;
+  margin: 0;
+}
+
+nav {
   border-color: #595652;
   border-style: solid;
   border-width: medium;
-  border-radius: .3em;
-  padding: .6em;
-  margin: .3em;
 }
 
 h1 {
   font-family: "Bevan", cursive, sans-serif;
+  margin: .3em;
 }
 
 ul li {
@@ -30,6 +32,7 @@ ul li {
   display: inline-block;
   padding: .5em;
   border-radius: .3em;
+  margin: .2em .1em;
 }
 
 a {
