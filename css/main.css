@@ -2,25 +2,38 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #dbd6cf;
+  list-style-type: none;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-div {
+.banner {
   color: #fff;
   background-color: #79756f;
   text-align: center;
-  margin: .3em auto;
+  border-color: #595652;
+  border-style: solid;
+  border-width: medium;
+  border-radius: .3em;
+  padding: .6em
 }
 
 h1 {
   font-family: "Bevan", cursive;
+  margin: .3em;
 }
 
-ol li {
+ul li {
+  text-decoration: none;
   background-color: #713837;
   display: inline-block;
   font-family: sans-serif;
+  padding-left: .5em;
+  padding-right: .75em;
+}
+
+ul li:hover {
+  background-color: #f33;
 }
